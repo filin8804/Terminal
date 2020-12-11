@@ -1,4 +1,6 @@
 # Terminal
+Были использованы такие компоненты :<br>
+https://github.com/no-go/TextThing/releases/tag/v0.9<br>
 Test :<br>
 <br>
 main(){<br>
