@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	tools:context="com.android.terminal.MainActivity"
+	android:background="#a7bcfa"
+	android:paddingLeft="10dp"
+	android:paddingTop="10dp"
+	android:paddingRight="10dp"
+	android:paddingBottom="10dp"
+>
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/sv"
+		android:background="#313079"
+		android:textColor="#a7bcfa"
+		android:layout_gravity="top"
+	>
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:inputType="textMultiLine|textNoSuggestions"
+			android:ems="10"
+			android:id="@+id/editText"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentEnd="true"
+			android:gravity="top|left"
+			android:textAlignment="gravity"
+			android:fontFamily="monospace"
+			android:background="#313079"
+			android:textColor="#a7bcfa"
+			android:textSize="@dimen/abc_text_size_title_material_toolbar"
+			android:layout_above="@+id/optnBtn"
+			android:paddingLeft="10dp"
+			android:paddingTop="10dp"
+			android:paddingRight="10dp"
+			android:paddingBottom="50dp"
+			android:layout_gravity="top"
+			android:layout_alignParentTop="true"
+		/>
+	</ScrollView>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:text="@string/fontOptions"
+		android:id="@+id/optnBtn"
+		android:background="#313079"
+		android:textColor="#a7bcfa"
+		android:padding="2dp"
+		android:typeface="monospace"
+		android:layout_gravity="bottom"
+		android:layout_alignParentBottom="true"
+	/>
+</RelativeLayout>
+	
+
+
